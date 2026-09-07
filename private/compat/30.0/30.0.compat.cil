@@ -4,6 +4,7 @@
 
 (typeattribute vendordomain)
 (typeattributeset vendordomain ((and (domain) ((not (coredomain))))))
+(allow vendordomain self (netlink_route_socket (nlmsg_readpriv)))
 
 ;; TODO: Once 30.0 is no longer supported for vendor images,
 ;; mlsvendorcompat can be completely from the system policy.

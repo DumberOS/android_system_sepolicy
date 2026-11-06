@@ -1672,3 +1672,6 @@ crashrecovery.rescue_boot_count u:object_r:crashrecovery_prop:s0 exact int
 crashrecovery.rescue_boot_start u:object_r:crashrecovery_prop:s0 exact int
 persist.crashrecovery.enable_rescue u:object_r:crashrecovery_prop:s0 exact bool
 persist.crashrecovery.last_factory_reset u:object_r:crashrecovery_prop:s0 exact int
+
+# DumberOS ROM metadata (renamed Lineage properties).
+ro.dumberos. u:object_r:build_prop:s0 prefix string
